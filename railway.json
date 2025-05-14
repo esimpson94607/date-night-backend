@@ -1,0 +1,6 @@
+{
+  "build": [
+    "pip install -r requirements.txt"
+  ],
+  "start": "uvicorn date_night_ai_backend:app --host 0.0.0.0 --port $PORT"
+}
